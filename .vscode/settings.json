@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "cSpell.words": [
+        "Aleksandr",
+        "Sokolovskii",
+        "ESNEXT",
+        "tslib",
+        "downlevel",
+        "typechecking",
+        "linebreak"
+    ],
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "cSpell.enabled": true,
+    "typescript.referencesCodeLens.enabled": true
+}
