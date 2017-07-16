@@ -1,7 +1,7 @@
 {
   "name": "gcp-cloud-functions-typescript-starter",
   "version": "1.0.0",
-  "description": "Google Cloud Platform Cloud Functions TypeScript starter project",
+  "description": "Google Cloud Functions TypeScript starter project",
   "main": "index.js",
   "scripts": {
     "deploy-local": "tsc && functions deploy helloWorld --trigger-http"
