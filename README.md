@@ -1,1 +1,1 @@
-# cloud-functions-typescript-template
+# gcp-cloud-functions-typescript-starter
