@@ -1,7 +1,7 @@
 {
-  "name": "cloud-functions-typescript-template",
+  "name": "gcp-cloud-functions-typescript-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Google Cloud Platform Cloud Functions TypeScript starter project",
   "main": "index.js",
   "scripts": {
     "deploy-local": "tsc && functions deploy helloWorld --trigger-http"
@@ -11,5 +11,9 @@
   "devDependencies": {
     "@types/node": "^6.0.0",
     "@types/express": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amsokol/gcp-cloud-functions-typescript-template.git"
   }
 }
