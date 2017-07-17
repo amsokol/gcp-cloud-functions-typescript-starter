@@ -4,7 +4,8 @@
   "description": "Google Cloud Functions TypeScript starter project",
   "main": "index.js",
   "scripts": {
-    "deploy-local": "tsc && functions deploy helloWorld --trigger-http"
+    "deploy-local": "tsc && functions deploy helloWorld --trigger-http",
+    "package-zip(windows)": "powershell Compress-Archive -Force -LiteralPath index.js, package.json, settings.json -DestinationPath helloWorld.zip"
   },
   "author": "Aleksandr Sokolovskii",
   "license": "Apache-2.0",

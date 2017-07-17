@@ -18,6 +18,11 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "npm",
+            "script": "package-zip(windows)",
+            "problemMatcher": []
         }
     ]
 }
