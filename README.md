@@ -2,12 +2,22 @@
 
 <!-- TOC -->
 
+- [Introduction](#introduction)
 - [Clone project](#clone-project)
 - [Build project (command-line)](#build-project-command-line)
 - [Deploy project to Cloud Functions Local Emulator (command-line)](#deploy-project-to-cloud-functions-local-emulator-command-line)
 - [Build bundle to deploy to Google Cloud Platform (command-line)](#build-bundle-to-deploy-to-google-cloud-platform-command-line)
 
 <!-- /TOC -->
+
+## Introduction
+
+Cloud Functions come in two distinct variants: foreground (HTTP) and background.
+You invoke HTTP functions from standard HTTP requests.You can use background functions to handle events from your Cloud infrastructure, such as messages on a Google Cloud Pub/Sub topic, or changes in a Google Cloud Storage bucket. This project includes three example functions:
+
+- `helloWorldHTTP` - foreground (HTTP) function
+- `helloWorldPubSub` - background functions to handle Google Cloud Pub/Sub topic events
+- `helloWorldStorage` - background functions to handle events from Google Cloud Storage bucket
 
 ## Clone project
 

@@ -3,10 +3,18 @@ declare namespace GoogleCloudPlatform {
     export namespace CloudFunctions {
         export interface PubsubEvent {
             eventId: string
-            timestamp: string // ISO 8601
+            timestamp: Date // ISO 8601
             eventType: string
             resource: string
             data: PubSub.PubsubMessage
+        }
+
+        export interface StorageEvent {
+            eventId?: string
+            timestamp: Date // ISO 8601
+            eventType: string
+            resource: string
+            data: Storage.StorageMessage
         }
 
         type Callback = () => void;
@@ -50,4 +58,24 @@ declare namespace GoogleCloudPlatform {
         }
     }
 
+    export namespace Storage {
+        export interface StorageMessage {
+            kind?: string
+            resourceState?: string
+            id?: string
+            selfLink?: string
+            name?: string
+            bucket?: string
+            generation?: number
+            metageneration?: number
+            contentType?: string
+            timeCreated?: Date
+            updated?: Date
+            storageClass?: string
+            size?: number
+            md5Hash?: string
+            mediaLink?: string
+            crc32c?: string
+        }
+    }
 }

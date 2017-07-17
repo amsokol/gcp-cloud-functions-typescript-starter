@@ -20,6 +20,7 @@
         "linebreak-style": [
             true,
             "LF"
-        ]
+        ],
+        "no-var-requires": false
     }
 }

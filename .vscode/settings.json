@@ -8,7 +8,11 @@
         "downlevel",
         "typechecking",
         "linebreak",
-        "Pubsub"
+        "Pubsub",
+        "metageneration",
+        "keyfile",
+        "bigquery",
+        "bigtable"
     ],
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "cSpell.enabled": true,
