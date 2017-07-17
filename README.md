@@ -77,10 +77,16 @@ See [Cloud Functions Local Emulator](https://cloud.google.com/functions/docs/emu
 
 If you prefer command-line interface instead of Visual Studio Code than use the next commands to create zip archive for deployment.
 
-For Windows using PowerShell:
+For Windows using `PowerShell`:
 
 ```bash
 npm run package-zip(windows)
+```
+
+For Linux/Unix using `zip` utility (you have to install it before):
+
+```bash
+npm run package-zip(linux)
 ```
 
 It creates `helloWorld.zip` that includes `index.js`, `package.json`, `settings.json` files.

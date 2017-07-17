@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "deploy-local": "tsc && functions deploy helloWorld --trigger-http",
-    "package-zip(windows)": "powershell Compress-Archive -Force -LiteralPath index.js, package.json, settings.json -DestinationPath helloWorld.zip"
+    "package-zip(windows)": "powershell Compress-Archive -Force -LiteralPath index.js, package.json, settings.json -DestinationPath helloWorld.zip",
+    "package-zip(linux)": "zip helloWorld.zip index.js package.json settings.json"
   },
   "author": "Aleksandr Sokolovskii",
   "license": "Apache-2.0",
